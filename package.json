@@ -1,0 +1,24 @@
+{
+  "name": "novicell-debounce",
+  "version": "1.0.0",
+  "description": "Simple function to debounce scroll and resize event",
+  "main": "js/novicell.debounce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novicell/novicell-debounce.git"
+  },
+  "keywords": [
+    "novicell",
+    "debounce",
+    "debouncer"
+  ],
+  "author": "Danni Larsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Novicell/novicell-debounce/issues"
+  },
+  "homepage": "https://github.com/Novicell/novicell-debounce#readme"
+}
