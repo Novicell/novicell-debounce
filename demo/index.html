@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Novicell debounce</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        * { box-sizing: border-box; }
+        html,body { height: 100%; width: 100%; display: flex; align-items: center; flex-direction: column; justify-content: center; font-family: sans-serif; }
+        ::selection { background: aqua; color: deeppink; }
+    </style>
+</head>
+
+<body>
+    <h1>Take a look in the console.</h1>
+    <p>Then try to resize your browser &LeftArrowRightArrow;</p>
+
+    <script src="../js/novicell.debounce.js"></script>
+
+    <script type="text/javascript">
+        function doStuff() {
+            if (window.innerWidth > 750) {
+                console.log('Screen is wider than 750 pixels');
+            }
+        };
+
+        window.addEventListener('resize', novicell.debounce(doStuff, 250));
+    </script>
+</body>
+
+</html>
