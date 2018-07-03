@@ -1,4 +1,7 @@
 # Novicell Debounce
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Novicell/novicell-debounce.svg)](https://greenkeeper.io/)
+
 **Simple function to debounce scroll and resize event**
 
 ## Usage
